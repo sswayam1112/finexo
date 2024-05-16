@@ -1,0 +1,751 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header section start  */
+header {
+    /* height: 950px; */
+    background-image: url('hero-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(6, 6, 89); */
+    padding: 0px;
+    /* padding-bottom: 100px; */
+    margin: 0px;
+    color: white;
+    /* list-style: none; */
+}
+
+.main .logo {
+    display: inline-block;
+    margin: 17px 20px;
+}
+
+.main .logo:hover {
+    cursor: pointer;
+    /* color: aqua; */
+}
+
+.main .navBarOpen {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+
+}
+
+.main .navBarOpen img {
+    height: 45px;
+}
+
+.main ul {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.main ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.main ul a:hover {
+    color: rgb(0, 183, 255);
+
+}
+
+ul a.active{
+    color: rgb(0, 183, 255);
+    font-size:larger;
+    font-weight: 700;
+}
+
+.main ul a li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+/* .main ul a li img {
+    height: 22px;
+} */
+
+header .details {
+    display: flex;
+    flex-wrap: nowrap;
+    /* margin: 50px 150px; */
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    padding-bottom: 200px;
+    /* animation: slide 1 forwards 3s infinite; */
+}
+/* @keyframes slide {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+} */
+
+header .details .detailbox {
+    width: 50%;
+    margin: 30px 0px 10px 30px;
+    padding: 100px 15px;
+}
+
+header .details .detailbox h1 {
+    font-size: 50px;
+}
+
+header .details .detailbox p {
+    /* width: 52%; */
+    padding: 1rem 0px;
+    font-size: 15px;
+}
+
+header .details .detailbox button {
+    padding: 16px 44px;
+    margin-top: 25px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+header .details .detailbox button:hover {
+    cursor: pointer;
+    animation: colour 1s ease-in-out forwards;
+}
+
+header .details .detailsImg {
+    width: 50%;
+    padding: 0px 15px;
+    /* padding: 100px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .details .detailsImg img {
+    /* height: 100%; */
+    width: 100%;
+    animation: updown 5s infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-45px);
+    }
+
+    50% {
+        transform: translateY(45px);
+    }
+
+    100% {
+        transform: translateY(-45px);
+    }
+}
+
+header .circlebtn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/* header section end  */
+
+/* service section start */
+
+#services{
+    margin-bottom: 50px
+}
+
+.services h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    /* margin-top: 60px; */
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+.services h2 span {
+    color: rgb(0, 183, 255);
+}
+
+.services .servicePara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services p {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.services .serviceContent {
+    display: flex;
+    margin: 50px 40px;
+    justify-content: center;
+}
+
+.services .serviceInnerContent {
+    background-color: whitesmoke;
+    margin: 15px;
+    width: 30%;
+
+}
+
+.services .serviceInnerContent div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.services .serviceInnerContent img {
+    height: 75px;
+    width: 75px;
+}
+
+.services .serviceInnerContent h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services .serviceInnerContent h2 div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.services .serviceInnerContent p {
+    text-align: center;
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.services .serviceContent button {
+    color: rgb(3, 3, 147);
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.services .viewbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .viewbtn button {
+    padding: 16px 44px;
+    margin-top: 20px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.services .viewbtn button:hover {
+    cursor: pointer;
+    animation: colour 1s ease-in-out forwards;
+}
+
+/* service section end  */
+
+
+/* about section start */
+#about {
+    /* height: 1000px; */
+    background-color: #00204a;
+    color: white;
+}
+
+#about .aboutHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    /* margin-top: 60px; */
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+#about .aboutHeading h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#about .aboutHeading h2 span {
+    color: rgb(0, 183, 255);
+}
+
+#about p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about .aboutDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+#about .aboutDetails .aboutImg {
+    /* height: 50%; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .aboutDetails img {
+    /* height: 70%; */
+    width: 90%;
+    display: block;
+    float: right;
+    /* margin: 50px 20px 100px 20px; */
+}
+
+#about .aboutDetails .aboutContent {
+    /* height: 100%; */
+    width: 50%;
+    margin-top: 50px;
+}
+
+#about .aboutDetails .aboutContent h2 {
+    font-size: 1.7rem;
+}
+
+#about .aboutDetails .aboutContent p ,span.aboutMore{
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#about .aboutDetails .aboutContent button {
+    padding: 16px 44px;
+    margin-top: 20px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+#about .aboutDetails .aboutContent button:hover {
+    cursor: pointer;
+    animation: colour 1s ease-in-out forwards;
+}
+
+/* about section end  */
+
+/* why chose us section start  */
+#whyUs {
+    text-align: center;
+}
+
+#whyUs h1 {
+    font-size: 2rem;
+    /* margin-top: 100px; */
+    padding-top: 60px;
+}
+
+#whyUs h1 span {
+    color: rgb(0, 183, 255);
+}
+
+#whyUs .content .InnerContent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#whyUs .content .InnerContent img {
+    height: 60px;
+    width: 60px;
+    padding: 25px;
+    border: 5px solid #00204a;
+    border-radius: 50%;
+}
+
+#whyUs .content .InnerContent h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+    margin: 10px 10px;
+
+}
+
+#whyUs .content .InnerContent p {
+    width: 92%;
+}
+
+#whyUs .content button {
+    padding: 16px 44px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+#whyUs .content button:hover {
+    cursor: pointer;
+    animation: colour 1s ease-in-out forwards;
+}
+
+/* why chose us section end  */
+
+/* team section start  */
+#team {
+    background-color: #00204a;
+    color: white;
+}
+
+#team .teamHeading {
+    text-align: center;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+
+#team .teamHeading h1 {
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+#team .teamHeading h1 span {
+    color: rgb(0, 183, 255);
+}
+
+#team .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#team .content .innerContent {
+    background-color: #002a60;
+    margin: 20px 10px 100px 10px;
+    width: 22%;
+    /* height: 350px; */
+    text-align: center;
+}
+
+#team .content .innerContent img {
+    height: 115px;
+    width: 115px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#team .content .innerContent h3 {
+    color: rgb(0, 183, 255);
+    font-size: 1.25rem;
+    margin: 10px 0px;
+}
+
+#team .content .innerContent p {
+    margin-bottom: 50px;
+}
+
+/* team section ends  */
+
+/* what says customer section start */
+
+#whatsaysourcustomer {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#whatsaysourcustomer .customerHeading {
+    text-align: center;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+}
+
+#whatsaysourcustomer .customerHeading h1 {
+    font-size: 2rem;
+    margin: 50px 0px;
+}
+
+#whatsaysourcustomer .customerHeading h1 span {
+    color: rgb(0, 183, 255);
+}
+
+#whatsaysourcustomer .img {
+    height: 20px;
+    z-index: 1;
+}
+
+#whatsaysourcustomer .img img {
+    border-radius: 50%;
+
+}
+
+#whatsaysourcustomer .content {
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 15px -5px;
+    padding: 20px 20px 40px 20px;
+    margin: 20px 40px 20px 40px;
+    /* height: 150px; */
+    text-align: center;
+    z-index: 0;
+}
+
+#whatsaysourcustomer .content h3 {
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+#whatsaysourcustomer .content .customerPlace {
+    margin-top: 2px;
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+
+/* what says customer section end  */
+
+/* end details section start  */
+
+#endDetails {
+    background-color: #00204a;
+    color: white;
+    /* margin: 20px 20px; */
+    /* margin-top: 50px; */
+    /* padding: 0px 20px; */
+    padding-bottom: 20px;
+}
+
+#endDetails .innerDetails {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    /* margin: 20px 20px; */
+    padding: 30px 10px;
+    margin-bottom: 0px;
+    /* flex-wrap: wrap; */
+}
+
+#endDetails .innerDetails .address {
+    width: 22%;
+    padding: 0px 20px;
+    /* height: 200px; */
+}
+
+#endDetails .innerDetails .address h2 {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .address p {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .info {
+    width: 25%;
+    padding: 0px 20px;
+}
+
+#endDetails .innerDetails .info h2 {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .info p {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .links {
+    width: 25%;
+    padding: 0px 20px;
+}
+
+#endDetails .innerDetails .links h2 {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .links ul {
+    list-style: none;
+    margin: 0xp 0px;
+    padding: 0px 0px;
+}
+
+#endDetails .innerDetails .links ul a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: inline;
+}
+
+#endDetails .innerDetails .links ul a:hover {
+    color: aqua;
+}
+
+#endDetails .innerDetails .links ul li {
+    margin: 0px 0px;
+    padding: 10px 0px;
+    /* display: flex; */
+}
+
+#endDetails .innerDetails .subscribe {
+    width: 25%;
+    padding:  0px 20px;
+}
+
+#endDetails .innerDetails .subscribe h2 {
+    margin: 10px 0px;
+}
+
+#endDetails .innerDetails .subscribe input {
+    margin: 10px 0px;
+    padding: 2px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: large;
+}
+
+#endDetails .innerDetails .subscribe input::placeholder {
+    color: white;
+    font-size: large;
+}
+
+#endDetails .innerDetails .subscribe button {
+    padding: 16px 44px;
+    margin: 10px 0px;
+    width: 100%;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+#endDetails .innerDetails .subscribe button:hover {
+    cursor: pointer;
+    animation: colour 1s ease-in-out forwards;
+}
+
+/* end details section ends  */
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+/* button animation */
+@keyframes colour {
+    0% {
+        background-color: rgb(0, 183, 255);
+    }
+
+    100% {
+        background-color: rgb(3, 110, 153);
+    }
+}
+
+/* button animation */
+@keyframes colour {
+    0% {
+        background-color: rgb(0, 183, 255);
+    }
+
+    100% {
+        background-color: rgb(3, 110, 153);
+    }
+}
+
+
+
+
+
+/* scroll animation for sections  */
+
+/* body{
+    overflow-x: hidden;
+}
+
+section{
+    transform: translateX(400%);
+    transition: transform 0.7s ease;
+}
+
+section:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+
+section.show{
+    transform: translateX(0);
+} */
+
+
+
+
+/* scroll animation on divs */
+
+div {
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+
+div:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+div.show{
+    transform: translateX(0);
+}
+
+
+
+
+
+
